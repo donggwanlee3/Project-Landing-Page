@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+#hero {
+    background-color: #1f2937;
+    padding: 15px;
+}
+
+/* #hero #main {
+
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #f9faf8;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+#logo a {
+    font-size: 24px;
+    color: #f9faf8;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+#right-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+#hero .container {
+  max-width: 80%; /* Set maximum width for the container */
+  margin: 0 auto; /* Center the container */
+  padding: 10px; /* Add padding inside the container */
+  color: #f9faf8;
+}
+
+#main {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+#secondary {
+    font-size :18px;
+    color: #E5E7EB;
+}
+
+.headercontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.body h1 {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 20px;
+    width: 300px;
+    margin: 16px;
+  }
+  
+.card img {
+    width: 150px; /* Set width to a fixed value */
+    height: 150px; /* Set height to the same fixed value to make it square */
+    object-fit: cover; /* Ensure the image covers the entire area while maintaining aspect ratio */
+    margin-bottom: 16px; /* Add space below the image */
+    border: 3px solid #3882f6; /* Add border to the image */
+    border-radius: 9px; /* Optional: Add border radius for rounded corners */
+  }
+
+  .card p {
+    text-align: center; /* Center text */
+    margin: 0; /* Remove default margin */
+  }
+
+  .quote {
+    text-align: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-style: light italic; /* Italicize text */
+    color: #1f2937;
+    font-size: 36px;
+    padding: 60px;
+    width: 70%;
+    margin: 0 auto; /* Center the element horizontally */
+  }
+
+  span {
+    font-weight: 700;
+    font-size: 20px;
+    padding: 30px;
+    float: right;
+  }
