@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body {
     font-family: 'Roboto', sans-serif;
+    margin-top: 0%;
+    padding-top: 0%;
   }
 #hero {
-    background-color: #1f2937;
+    margin-top: 0px;
     padding: 15px;
+    display: flex;
 }
-
-/* #hero #main {
-
-} */
 
 ul {
     list-style-type: none;
@@ -57,13 +56,16 @@ button {
 }
 
 #hero .container {
-  max-width: 80%; /* Set maximum width for the container */
-  margin: 0 auto; /* Center the container */
-  padding: 10px; /* Add padding inside the container */
+background-color: #1f2937;
+  margin: 0px auto; /* Center the container */
+  padding: 20px 150px 80px 150px;
   color: #f9faf8;
+  width: 1200px; /* Set width to a fixed value */
+  flex-shrink: 0;
 }
 
 #main {
+    color: #f9faf8;
     font-weight: 900;
     font-size: 48px;
 }
@@ -86,21 +88,22 @@ button {
 
 .cards {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: center;
     margin-bottom: 30px;
+    gap: 5px;
 }
 
 .card {
     display: flex;
     flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    padding: 20px;
-    width: 300px;
-    margin: 16px;
+    width: 150px;
+    padding: 10px;
+    margin: 16px 20px;
   }
   
 .card img {
+    display: flex;
+    align-items: center;
     width: 150px; /* Set width to a fixed value */
     height: 150px; /* Set height to the same fixed value to make it square */
     object-fit: cover; /* Ensure the image covers the entire area while maintaining aspect ratio */
@@ -121,9 +124,11 @@ button {
     font-style: light italic; /* Italicize text */
     color: #1f2937;
     font-size: 36px;
-    padding: 60px;
-    width: 70%;
+    padding: 150px;
+    width: 1200px;
     margin: 0 auto; /* Center the element horizontally */
+    display: flex;
+    flex-shrink: 0;
   }
 
   span {
