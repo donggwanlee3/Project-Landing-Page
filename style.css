@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body {
     font-family: 'Roboto', sans-serif;
-    margin-top: 0%;
-    padding-top: 0%;
+    margin-top: 0;
+    padding-top: 0;
+    
   }
 #hero {
     margin-top: 0px;
-    padding: 15px;
     display: flex;
 }
 
@@ -36,7 +36,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 #right-nav {
@@ -49,12 +49,17 @@ a {
 #hero .container {
 background-color: #1f2937;
   margin: 0px auto; /* Center the container */
-  padding: 20px 150px 80px 150px;
+  padding: 20px 150px 20px 150px;
   color: #f9faf8;
   width: 1200px; /* Set width to a fixed value */
   flex-shrink: 0;
+  margin-bottom: 0;
 }
 
+#hero .container img {
+  height: 250px;
+  width: auto;
+}
 #main {
     color: #f9faf8;
     font-weight: 900;
@@ -80,7 +85,7 @@ background-color: #1f2937;
 .cards {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     gap: 5px;
 }
 
@@ -111,12 +116,13 @@ background-color: #1f2937;
   .quote {
     text-align: center;
     align-items: center;
+    justify-content: center; 
     background-color: #E5E7EB;
     font-style: light italic; /* Italicize text */
     color: #1f2937;
     font-size: 36px;
-    padding: 150px;
-    width: 1200px;
+    padding: 160px;
+    width: 1180px;
     margin: 0 auto; /* Center the element horizontally */
     display: flex;
     flex-shrink: 0;
@@ -134,8 +140,8 @@ background-color: #1f2937;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 100vh;
     margin: 0;
+    margin-top: 20px;
   }
 
   .signup {
@@ -144,8 +150,8 @@ background-color: #1f2937;
     justify-content: space-around;
     align-items: center;
     width: 1100px;
-    margin: 120px auto;
-    padding: 15px;
+    margin: 80px auto;
+    padding: 35px;
     border-radius: 8px;
   }
   
@@ -180,16 +186,28 @@ button {
 
 footer #hero {
     background-color: #1f2937;
+    margin: 0px auto;
 }
 /* TODO: Add CSS for the footer */
 /* change the quote to center */
 /* put some real images in the cards */
 footer {
+    display: flex;
+    justify-content: space-around;
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 20px;
-    text-align: center;
+    padding: 40px;
     font-size: 18px;
     font-weight: 500;
-    margin-top: 20px;
+    margin: 0px auto;
+    width: 1430px;
+    margin-bottom: 0;
+}
+html , body{
+  margin: 0;
+  padding: 0;
+  height: 90vh;
+}
+.body {
+  min-height: 0; /* Prevent unnecessary overflow */
 }
