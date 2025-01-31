@@ -6,15 +6,6 @@ Welcome to Clearspace, a landing page designed to promote meditation and social 
 
 Clearspace is a website that encourages users to meditate, share their experiences, and connect with like-minded individuals. It provides a simple and clean interface with an inviting call to action.
 
-📌 Features
-
-✅ Responsive Flexbox Layout
-✅ Intuitive Navigation Bar
-✅ Clean Hero Section with Call to Action
-✅ Feature Cards showcasing perks of meditation
-✅ Inspirational Quote Section
-✅ Footer with copyright details
-
 🛠 Tech Stack
 
 HTML5 – Structure
